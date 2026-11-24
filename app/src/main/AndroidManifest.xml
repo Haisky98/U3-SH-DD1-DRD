@@ -11,11 +11,13 @@
 
     <application
         android:allowBackup="true"
-        android:banner="@mipmap/ic_launcher"
-        android:icon="@mipmap/ic_launcher"
+        android:banner="@drawable/banner_fitzone"
+        android:icon="@drawable/logo_fitzone"
+        android:roundIcon="@drawable/logo_fitzone"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Fitzone">
+        android:theme="@style/Theme.Fitzone"
+        android:screenOrientation="landscape">
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -26,6 +28,7 @@
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WorkoutActivity" android:screenOrientation="landscape" />
     </application>
 
 </manifest>

@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">fitzone</string>
+    <string name="app_name">FitZone</string>
+    <string name="pause">Pausar</string><string name="resume">Reanudar</string><string name="reset">Reiniciar</string><string name="finished">Finalizado</string>
+    <string name="timer_format">%1$02d:%2$02d</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Siguiente</string>
+    <string name="page_format">Página %1$d de 3</string>
 </resources>
